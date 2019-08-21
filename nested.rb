@@ -134,6 +134,8 @@ def adding_to_dennis
         }
      }
 
-programmer_hash[:dennis_ritchie][:langauges][1] = "Assembly"
+new_program = programmer_hash[:dennis_ritchie][:langauges]
+new_program.push("Assembly")
 programmer_hash
+
 end
