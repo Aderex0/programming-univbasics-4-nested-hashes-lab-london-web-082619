@@ -135,7 +135,7 @@ def adding_to_dennis
      }
 
 new_program = programmer_hash[:dennis_ritchie][:langauges]
-new_program.push("Assembly")
+new_program << "Assembly"
 programmer_hash
 
 end
